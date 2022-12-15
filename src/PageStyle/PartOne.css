@@ -1,0 +1,62 @@
+.Main__partOne{
+    @apply flex justify-around  py-28 
+}
+
+.partOne__heading{
+    @apply text-6xl font-bold leading-tight
+}
+.partOne__para{
+    @apply tracking-wide mt-8 text-gray-700
+
+    
+}
+.partOne__img{
+    @apply w-[400px] h-[450px] rounded-lg
+}
+.Button__div{
+    @apply gap-4 flex mt-6
+}
+.partOne__btn{
+    @apply text-white bg-blue-700 px-5 py-2 rounded-sm font-semibold
+}
+.partOne__btn:hover{
+    background: #2a712a;
+}
+
+.partOne__btn_second{
+    @apply border-2 border-black px-5 py-2 rounded-sm font-semibold
+}
+.partOne__btn_second:hover{
+    background: #2a6f2a;
+    border: none;
+
+}
+
+
+@media(max-width:1000px){
+
+    .Main__partOne{
+        @apply flex-wrap py-20 
+    }
+    .partOne__heading{
+        @apply text-2xl text-center
+    }
+    .partOne__img{
+        @apply w-[270px] h-[290px] mt-6 
+    }
+    .partOne__para{
+        @apply text-center 
+    }
+    .Button__div{
+        @apply justify-center
+    }
+
+    .partOne__btn{
+        @apply px-2 py-1 text-sm 
+    }
+
+    .partOne__btn_second{
+        @apply  px-2 py-1 text-sm
+    }
+
+}

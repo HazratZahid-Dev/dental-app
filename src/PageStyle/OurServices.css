@@ -1,0 +1,22 @@
+.ourServices{
+    background: #EFF5F5;
+    @apply p-9  w-[85%] m-auto mt-9
+}
+
+.ourServices__heading{
+    @apply text-center text-4xl font-bold tracking-wide
+}
+.ourServices__para{
+    @apply  text-center tracking-wider text-gray-600
+}
+
+.See__all__btn{
+    @apply bg-blue-700 flex justify-center m-auto px-5 py-2 text-white mt-28 rounded-md
+}
+
+.See__all__btn:hover{
+    background: #2a712a;
+    transform: scale(1.05);
+    transition: 0.5s;
+    /* @apply animate-bounce */
+}

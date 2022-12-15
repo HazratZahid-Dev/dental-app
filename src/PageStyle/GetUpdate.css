@@ -1,0 +1,58 @@
+.Main__GetUpdate{
+   
+    
+    @apply mt-20  
+}
+.MainUpdate__img{
+    
+    filter: blur(4px);
+    @apply m-auto w-[85%] h-[60vh] 
+}
+.inner__Update{
+  
+}
+.get__heading{
+    z-index: 1;
+    bottom: 220px;
+    position: relative;
+    @apply text-center text-5xl font-bold text-white 
+}
+.get__para{
+    bottom: 220px;
+    position: relative;
+    @apply text-center mt-2 text-white
+}
+.email__sec{
+    bottom: 220px;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+    @apply  bg-white  justify-between m-auto   rounded-md mt-3 flex w-[300px]
+}
+.email__para{
+    border-radius: 0px 5px 5px 0px;
+    @apply bg-slate-400 w-auto p-2 
+}
+.input__field{
+    border-radius: 5px 0px 0px 5px;
+    @apply p-2 outline-none
+}
+
+@media(max-width:1000px){
+    .MainUpdate__img{
+    
+        filter: blur(4px);
+        @apply m-auto w-[85%] h-[45vh] 
+    }
+
+    .get__heading{
+       
+        @apply text-center text-2xl font-bold text-white 
+    }
+    .email__sec{
+        @apply     w-[250px]
+    }
+    .email__para{
+        @apply text-sm
+    }
+
+}

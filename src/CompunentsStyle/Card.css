@@ -1,0 +1,16 @@
+.card{
+    @apply justify-center flex gap-8 flex-wrap
+}
+.Main__card{
+    background: #F3EFE0;
+    @apply w-[330px] h-[350] border flex flex-wrap gap-4 text-center p-14 rounded-lg  
+}
+.card__icons{
+    @apply flex justify-center text-4xl text-blue-700 flex-wrap
+}
+.card__heading{
+    @apply text-xl font-bold mt-2 tracking-wide
+}
+.card__para{
+    @apply mt-2 tracking-wide
+}

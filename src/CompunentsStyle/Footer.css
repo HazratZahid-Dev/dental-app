@@ -1,0 +1,32 @@
+.Main__footer{
+    background: #EFF5F5;
+    width: 100%;
+    height: 70%;
+    padding: 40px;
+}
+.logo__div{
+    @apply flex m-auto justify-center
+}
+.logo{
+    border-radius: 50%;
+    @apply w-[70px] h-[50px]
+}
+.footer__icons{
+    @apply justify-center text-center 
+}
+.fontAwesome{
+    @apply flex gap-8 mt-5 text-xl justify-center animate-bounce text-blue-700
+}
+.google__app{
+    @apply flex gap-5 justify-center p-10
+}
+.app{
+    @apply w-[200px] h-[40px] rounded-lg
+}
+
+@media(max-width:1000px){
+    .app{
+        @apply w-[150px] h-[30px] rounded-lg
+    }
+
+}

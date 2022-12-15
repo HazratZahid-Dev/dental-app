@@ -1,0 +1,27 @@
+.servicesCard{
+    @apply justify-center flex gap-20 mt-8 flex-wrap
+}
+.Card{
+    @apply justify-center flex w-[280px] h-[440px] border rounded-lg flex-wrap
+}
+.servicesCardImg{
+    @apply h-[250px] w-[280px] 
+}
+.services__card__heading{
+    @apply tracking-wide p-2 font-bold
+}
+.Services__card__para{
+    @apply text-sm leading-6 p-2
+}
+.Service__btn{
+    @apply w-[280px] bg-blue-700 h-[30px] rounded mt-3 text-white 
+}
+
+.Service__btn:hover{
+    background: #2a712a;
+    transform: translateX(2px);
+    transform: scale(1.02);
+}
+.rating__price1{
+    @apply justify-between flex p-2
+}
